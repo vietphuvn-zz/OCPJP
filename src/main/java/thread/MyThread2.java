@@ -58,7 +58,7 @@ public class MyThread2 implements Runnable
     {
         Thread t2 = new Thread(new MyThread2());
         t2.setPriority(10);
-        System.out.println(t2);
+        System.out.println("thread info: " + t2);
         // t2.run(); // if you call run() method directly, it simply executes as part of the calling thread
         
         t2.start();
